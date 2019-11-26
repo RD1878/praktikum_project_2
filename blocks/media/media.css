@@ -1,0 +1,1025 @@
+/* !!! ОБЩИЕ КЛАССЫ 0 - 424 !!! */
+@media screen and (max-width: 424px) {
+    .header {
+        padding-top: 16px;
+        width: calc(100% - 32px);
+    }
+    
+    .header__logo {
+        max-width: 142px;
+    }
+    
+    .header__languages {
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        padding-bottom: 8px;
+        width: calc(100% - 32px);
+    }
+
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        padding-bottom: 32px;
+        width: calc(100% - 32px);
+    }
+
+    .lead__illustration {
+        width: 100%;
+        padding-bottom: 8px;
+        min-height: 211px;
+    }
+
+    .lead {
+        padding-bottom: 64px;
+    }
+
+    .lead__illustration-caption {
+        width: calc(100% - 32px);
+        align-self: auto;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .entry {
+        width: calc(100% - 32px);
+        padding-bottom: 64px;
+    }
+
+    .entry__title {
+        padding-bottom: 32px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .entry__paragraph {
+        font-size: 16px;
+        line-height: 169%;
+    
+    }
+
+    .entry__data {
+        padding-top: 32px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .photo-table {
+        width: calc(100% - 32px);
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 64px;
+    }
+
+    .places__link-text, .places__link-way {
+        display: none;
+    }
+
+    .places__title {
+        padding-left: 16px;
+        padding-bottom: 32px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .places__paragraph {
+        width: auto;
+        padding-top: 24px;
+        padding-right: 16px;
+        padding-left: 16px;
+        
+        font-size: 16px;
+        line-height: 169%;
+    }
+    
+    .places__paragraph:last-of-type {
+        width: auto;
+        padding-bottom: 0;
+
+        font-size: 16px;
+        line-height: 169%;
+    }
+
+    .places__paragraph:first-of-type {
+        width: auto;
+        padding-bottom: 0;
+
+        font-size: 16px;
+        line-height: 169%;
+    }
+
+    .places__container {
+        padding-bottom: 48px;
+    }
+
+    .places__container {
+        display: block;
+    }
+
+    .video {
+        padding-bottom: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: calc(100% - 32px);
+    }
+
+    .video__title {
+        padding-bottom: 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .video__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        padding-bottom: 24px;
+    }
+
+    .video__container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .video__item {
+        min-height: 192px;
+    }
+
+    .video__item + .video__item {
+        margin-left: 0;
+    } 
+
+    .video__image {
+        min-height: 192px;
+    }
+
+    .comments {
+        display: block;
+        padding-bottom: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: auto;
+    }
+
+    .comments__title {
+        padding-bottom: 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .comments__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        padding-bottom: 40px;
+    }
+
+    .comments__item {
+        align-items: center;
+        position: relative;
+        padding-bottom: 48px;
+    }
+
+    .comments__item:last-of-type {
+        padding-bottom: 0;
+    }
+
+    .comments__paragraph {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 57px;
+        padding-bottom: 0;
+        
+    }
+
+    .comments__author {
+        position: absolute;
+        top: 114px;
+        width: auto;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        min-height: 312px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__author {
+        text-align: start;
+        left: 0;
+        position: static;
+        padding-top: 48px;
+    }
+
+    .footer__nav-item {
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .footer {
+        min-width: 183px;
+        max-width: 282px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        margin: 0;
+    }
+}
+
+/* !!! ЧАСТНЫЕ КЛАССЫ 300 - 375 !!! */
+@media screen and (min-width: 300px) and (max-width: 374px) {
+    .photo-table {
+        grid-row-gap: 8px;
+    }
+
+    .video__button-play {
+        max-width: 41px;
+        height: 41px;
+        left: 16px;
+        top: 16px;
+    }
+
+    .video__timing {
+        left: 16px;
+        bottom: 100px;
+        top: auto;
+    }
+
+    .video__item-title {
+        left: 16px;
+        bottom: 34px;
+        top: auto;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .video__item-subtitle {
+        left: 16px;
+        bottom: 16px;
+        top: auto;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .baikal-dogs__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        width: calc(100% - 32px);
+        bottom: 24px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: auto;;
+    }
+    
+    .baikal-dogs__title {
+        top: 64px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .baikal-dogs {
+        margin-bottom: 64px;
+        min-height: 216px;
+    }
+
+    .baikal-dogs__photo {
+        min-height: 216px;
+        object-fit: cover;
+    }
+}
+
+/* !!! ЧАСТНЫЕ КЛАССЫ 375 - 425 !!! */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .video__button-play {
+        max-width: 41px;
+        height: 41px;
+        left: 24px;
+        top: 24px;
+    }
+
+    .video__timing {
+        left: 24px;
+        bottom: 100px;
+        top: auto;
+    }
+
+    .video__item-title {
+        left: 24px;
+        bottom: 40px;
+        top: auto;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+
+    .video__item-subtitle {
+        left: 24px;
+        bottom: 24px;
+        top: auto;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .baikal-dogs__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        width: calc(100% - 64px);
+        bottom: 24px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: auto;;
+    }
+    
+    .baikal-dogs__title {
+        top: 104px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .baikal-dogs {
+        margin-bottom: 64px;
+        min-height: 272px;
+    }
+
+    .baikal-dogs__photo {
+        min-height: 272px;
+        object-fit: cover;
+    }
+}
+
+/* !!! ЧАСТНЫЕ КЛАССЫ 375 - 768 !!! */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .photo-table {
+        grid-row-gap: 15px;
+
+    }
+
+    .video__image {
+        min-height: 200px;
+    }
+
+    .video__item {
+        min-height: 200px;
+    }
+
+    .video__item + .video__item {
+        margin-top: 8px;
+        margin-left: auto;
+    }
+
+}
+
+/* !!! ЧАСТНЫЕ КЛАССЫ 425 - 768 !!! */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .lead__title {
+        font-size: 48px;
+        line-height: 48px;
+        margin: auto;
+    }
+
+    .lead__subtitle {
+        font-size: 24px;
+        line-height: 25px;
+        margin: auto;
+    }
+
+    .places__link-way {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .baikal-dogs {
+        min-height: 272px;
+    }
+}
+    
+
+/* !!! ОБЩИЕ КЛАССЫ 425 - 768 !!! */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .header {
+        width: calc(100% - 32px);
+    }
+    
+    .lead__title {
+        width: calc(100% - 32px);
+    }
+
+    .lead__subtitle {
+        padding-bottom: 31px;
+        width: calc(100% - 48px);
+    }
+
+    .lead__illustration {
+        width: 100%;
+        padding-bottom: 8px;
+    }
+
+    .lead__illustration-caption {
+        width: calc(100% - 132px);
+        margin-left: 16px;
+    }
+    
+
+    .lead__illustration-caption {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .entry__title {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .entry {
+        max-width: calc(100% - 32px);
+        padding-bottom: 64px;
+        margin: auto;
+    }
+
+    .entry__paragraph {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .photo-table {
+        grid-row-gap: 16px;
+        grid-column-gap: 16px;
+        width: calc(100% - 32px);
+        padding-bottom: 64px;
+    }
+
+    .places {
+        width: calc(100% - 32px);
+    }
+
+    .places__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .places__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    
+    .places__paragraph:last-of-type {
+        width: auto;
+        padding-top: 24px;
+        padding-bottom: 0;
+
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .places__paragraph:first-of-type {
+        width: auto;
+        padding-bottom: 0;
+        padding-top: 0;
+
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .places__container {
+        grid-row-gap: 40px;
+        grid-column-gap: 28px;
+        grid-template-columns: minmax(188px, auto) minmax(177px, auto);
+    }
+
+    .video {
+        width: calc(100% - 32px);
+    }
+
+    .video__title {
+        padding-bottom: 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .video__subtitle {
+        padding-bottom: 24px;
+    }
+
+    .video__button-play {
+        max-width: 41px;
+        height: 41px;
+        left: 24px;
+        top: 24px;
+    }
+
+    .video__timing {
+        left: 24px;
+        bottom: 100px;
+        top: auto;
+    }
+
+    .video__item-title {
+        left: 24px;
+        bottom: 40px;
+        top: auto;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .video__item-subtitle {
+        left: 24px;
+        bottom: 24px;
+        top: auto;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .video__container {
+        min-height: 392px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .video__item {
+        margin: auto;
+        min-height: 200px;
+    }
+
+    
+
+    .video__image {
+        max-width: 100%;
+    }
+
+    .comments {
+        display: block;
+        padding-bottom: 102px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: auto;
+    }
+
+    .comments__title {
+        width: calc(100% - 108px);
+        margin: auto;
+        max-width: 660px;
+        padding-bottom: 24px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .comments__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        padding-bottom: 40px;
+        margin: auto;
+    }
+
+    .comments__table {
+        max-width: 382px;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+     }
+
+    .comments__item {
+        align-items: center;
+        position: relative;
+        padding-bottom: 48px;
+    }
+
+    .comments__item:last-of-type {
+        padding-bottom: 0;
+    }
+
+
+    .comments__paragraph {
+        font-size: 16px;
+        line-height: 23px;
+        padding-top: 56px;
+        padding-bottom: 0;
+        
+    }
+
+    .comments__author {
+        position: absolute;
+        top: 113px;
+        width: auto;
+    }
+
+    .baikal-dogs__subtitle {
+        font-size: 16px;
+        line-height: 18px;
+        width: calc(100% - 32px);
+        bottom: 8%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: auto;;
+    }
+    
+    .baikal-dogs__title {
+        top: 35%;
+        font-size: 40px;
+        line-height: 43px;
+    }
+
+    .baikal-dogs {
+        margin-bottom: 64px;
+    }
+
+    .baikal-dogs__photo {
+        min-height: 272px;
+        object-fit: cover;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        min-height: 312px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__author {
+        text-align: start;
+        left: 0;
+        position: static;
+        padding-top: 48px;
+    }
+
+    .footer__nav-item {
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .footer {
+        min-width: 183px;
+        max-width: 282px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        margin: 0;
+    }
+}
+
+/* !!! ОБЩИЕ КЛАССЫ 768 - 1023 !!! */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        width: calc(100% - 48px);
+    }
+    
+    .lead__title {
+        width: calc(100% - 48px);
+    }
+
+    .lead__subtitle {
+        padding-bottom: 78px;
+        width: calc(100% - 48px);
+    }
+
+    .lead__illustration {
+        width: 100%;
+        padding-bottom: 16px;
+    }
+
+    .lead__illustration-caption {
+        width: calc(100% - 132px);
+        margin-left: 24px;
+    }
+    
+
+    .lead__illustration-caption {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .entry {
+        max-width: calc(100% - 48px);
+        padding-bottom: 97px;
+        margin: auto;
+    }
+
+    .entry__title {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .entry__paragraph {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .photo-table {
+        grid-row-gap: 16px;
+        grid-column-gap: 16px;
+        width: calc(100% - 48px);
+        padding-bottom: 102px;
+    }
+
+    .places {
+        width: calc(100% - 48px);
+    }
+
+    .places__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .places__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    
+    .places__paragraph:last-of-type {
+        width: auto;
+        padding-top: 24px;
+
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .places__paragraph:first-of-type {
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .places__container {
+        grid-row-gap: 40px;
+        grid-column-gap: 28px;
+        grid-template-columns: minmax(340px, auto) minmax(352px, auto);
+    }
+
+    .video {
+        width: calc(100% - 48px);
+    }
+
+    .video__title {
+        padding-bottom: 24px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .video__subtitle {
+        padding-bottom: 56px;
+    }
+
+    .video__button-play {
+        max-width: 41px;
+        height: 41px;
+        left: 24px;
+        top: 24px;
+    }
+
+    .video__timing {
+        left: 24px;
+        bottom: 100px;
+        top: auto;
+    }
+
+    .video__item-title {
+        left: 24px;
+        bottom: 40px;
+        top: auto;
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .video__item-subtitle {
+        left: 24px;
+        bottom: 24px;
+        top: auto;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .video__image {
+        min-height: 100%;
+    }
+
+    .video__item {
+        min-height: 200px;
+        justify-content: space-between;
+    }
+
+    .video__item + .video__item {
+        margin-left: 16px;
+    }
+
+    .comments {
+        display: block;
+        padding-bottom: 102px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: auto;
+    }
+
+    .comments__title {
+        width: calc(100% - 108px);
+        margin: auto;
+        max-width: 660px;
+        padding-bottom: 24px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .comments__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        padding-bottom: 40px;
+        margin: auto;
+    }
+
+    .comments__table {
+        max-width: 382px;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+     }
+
+    .comments__item {
+        align-items: center;
+        position: relative;
+        padding-bottom: 48px;
+    }
+
+    .comments__item:last-of-type {
+        padding-bottom: 0;
+    }
+
+
+    .comments__paragraph {
+        font-size: 16px;
+        line-height: 23px;
+        padding-top: 56px;
+        padding-bottom: 0;
+        
+    }
+
+    .comments__author {
+        position: absolute;
+        top: 113px;
+        width: auto;
+    }
+
+    .baikal-dogs__subtitle {
+        font-size: 18px;
+        line-height: 26px;
+        max-width: 382px;
+        bottom: 9%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: auto;;
+    }
+    
+    .baikal-dogs__title {
+        top: 40%;
+        bottom: auto;
+        font-size: 72px;
+        line-height: 78px;
+    }
+
+    .baikal-dogs {
+        margin-bottom: 64px;
+        min-height: 500px;
+    }
+
+    .baikal-dogs__photo {
+        min-height: 500px;
+        object-fit: cover;
+    }
+
+    .footer {
+        padding-bottom: 24px;
+    }
+
+    .footer__content {
+        width: calc(100% - 46px);
+    }
+
+    .footer__nav-item {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .footer__nav {
+        max-width: 465px;
+    }
+}
+
+
+/* !!! ЧАСТНЫЕ КЛАССЫ 1024 - 1279 !!! */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places__container {
+        grid-row-gap: 40px;
+        grid-column-gap: 32px;
+        grid-template-columns: minmax(440px, auto) minmax(456px, auto);
+    }
+
+    .photo-table {
+        grid-row-gap: 14px;
+        grid-column-gap: 14px;
+        width: calc(100% - 96px);
+        padding-bottom: 102px;
+    }
+
+    .video__button-play {
+        max-width: 41px;
+        height: 41px;
+        left: 30px;
+        top: 30px;
+    }
+
+    .video__timing {
+        left: 30px;
+        bottom: 151px;
+        top: auto;
+    }
+
+    .video__item-title {
+        left: 30px;
+        bottom: 66px;
+        top: auto;
+    }
+
+    .video__item-subtitle {
+        left: 30px;
+        bottom: 35px;
+        top: auto;
+    }
+
+    .video__image {
+        min-height: 100%;
+    }
+
+    .video__item {
+        min-height: 288px;
+        justify-content: space-between;
+    }
+
+    .video__item + .video__item {
+        margin-left: 16px;
+    }
+
+    .comments__table {
+        flex-wrap: nowrap;
+        
+    }
+
+    .comments {
+        margin-left: 48px;
+        margin-right: 48px;
+        width: auto;
+    }
+
+    .comments__item + .comments__item{
+        margin-left: 18px
+    }
+
+    .baikal-dogs__subtitle {
+        max-width: 413px;
+        bottom: 7%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: auto;
+    }
+    
+    .baikal-dogs__title {
+        top: 40%;
+        max-width: 600px;
+        bottom: auto;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .baikal-dogs__photo {
+        min-height: 562px;
+        object-fit: cover;
+    }
+
+    .footer__content {
+        width: calc(100% - 96px);
+    }
+
+    .header {
+        width: calc(100% - 96px);
+    }
+    
+    .lead__title {
+        width: calc(100% - 96px);
+    }
+
+    .lead__subtitle {
+        width: calc(100% - 96px);
+    }
+}

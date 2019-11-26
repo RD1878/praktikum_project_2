@@ -1,0 +1,11 @@
+.places__link-text {
+    min-height: 12px;
+    padding-bottom: 16px;
+  
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+
+    color: #AAAAAA;
+
+}

@@ -1,0 +1,16 @@
+@import url('./__link/baikal-dogs__link.css');
+@import url('./__photo/baikal-dogs__photo.css');
+@import url('./__subtitle/baikal-dogs__subtitle.css');
+@import url('./__title/baikal-dogs__title.css');
+
+.baikal-dogs {
+    width: 100%;
+    max-width: 1184px;
+    position: relative;
+    margin-bottom: 82px;
+    min-height: 594px;
+}
+
+.baikal-dogs:hover .baikal-dogs__photo {
+    opacity: 0.8;
+}

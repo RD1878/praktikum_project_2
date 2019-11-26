@@ -1,0 +1,10 @@
+.places__container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-auto-rows: minmax(69px, auto);
+    grid-template-columns: 49% 51%;
+    grid-row-gap: 60px;
+    grid-column-gap: 40px;
+    padding-bottom: 72px;
+}

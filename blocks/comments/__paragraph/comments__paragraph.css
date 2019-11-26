@@ -1,0 +1,10 @@
+.comments__paragraph {
+    width: 100%;
+    max-width: 382px;
+    min-height: 60px;
+    padding-top: 42px;
+    padding-bottom: 24px;
+
+    font-size: 14px;
+    line-height: 24px;
+}

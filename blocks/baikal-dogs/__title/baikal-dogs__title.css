@@ -1,0 +1,12 @@
+.baikal-dogs__title {
+    position: absolute;
+    width: 100%;
+    top: 274px;
+    
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}

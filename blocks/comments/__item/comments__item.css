@@ -1,0 +1,8 @@
+.comments__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 382px;
+    width: 100%;
+    
+}

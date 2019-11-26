@@ -1,0 +1,10 @@
+.entry__title {
+    width: 100%;
+    max-width: 683px;
+    padding-bottom: 48px;
+    min-height: 52px;
+
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 59px;
+}

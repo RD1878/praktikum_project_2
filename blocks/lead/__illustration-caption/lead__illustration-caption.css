@@ -1,0 +1,13 @@
+.lead__illustration-caption {
+    width: 100%;
+    max-width: 636px;
+    min-height: 10px;
+
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    align-self: flex-start;
+
+    color: #FFFFFF;
+}

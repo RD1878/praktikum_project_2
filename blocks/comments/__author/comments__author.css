@@ -1,0 +1,9 @@
+.comments__author {
+    width: 100%;
+    max-width: 382px;
+    min-height: 13px;
+    
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+}

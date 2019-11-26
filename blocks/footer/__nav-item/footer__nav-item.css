@@ -1,0 +1,18 @@
+.footer__nav-item {
+    width: auto;
+    min-height: 23px;
+    font-size: 24px;
+    line-height: 41px;
+
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+.footer__nav-item:hover {
+    opacity: 0.7;
+}
+
+.footer__nav-item {
+    opacity: 1;
+    transition: opacity ease-in-out 0.5s;
+}

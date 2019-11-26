@@ -1,0 +1,15 @@
+.places__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: auto;
+}
+
+.places__link:hover {
+    opacity: 0.7;
+}
+
+.places__link {
+    opacity: 1;
+    transition: opacity ease-in-out 0.5s;
+}

@@ -1,0 +1,8 @@
+.video__image {
+    width: 100%;
+    
+    border-radius: 5px;
+    background: #000000;
+    opacity: 0.5;
+    transition: opacity ease-in-out 2s;
+}

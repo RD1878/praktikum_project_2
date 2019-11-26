@@ -1,0 +1,13 @@
+.footer__author {
+    width: 100%;
+    max-width: 282px;
+    min-height: 13px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    vertical-align: bottom;
+}

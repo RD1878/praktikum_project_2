@@ -1,0 +1,9 @@
+.footer__content {
+    width: 100%;
+    max-width: 1184px;
+    min-height: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}

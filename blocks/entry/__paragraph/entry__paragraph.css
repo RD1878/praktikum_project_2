@@ -1,0 +1,10 @@
+.entry__paragraph {
+    width: 100%;
+    max-width: 683px;
+    min-height: 154px;
+    margin-right: 18px;
+
+    font-size: 14px;
+    line-height: 24px;
+
+}

@@ -1,0 +1,13 @@
+@import url('./__item/photo-table__item.css');
+
+.photo-table {
+   width: 100%;
+   max-width: 1184px;
+   min-height: 596px;
+   padding-bottom: 92px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+   grid-template-rows: repeat(3, 1fr);
+   grid-row-gap: 16px;
+   grid-column-gap: 16px;
+}

@@ -1,0 +1,16 @@
+.video__item {
+    position: relative;
+    width: 100%;
+    max-width: 583px;
+    background-color:  #2A2C2F;
+    min-height: 323px;
+    
+}
+
+.video__item:hover .video__image {
+    opacity: 0.3;
+}
+
+.video__item + .video__item {
+    margin-left: 18px;
+}

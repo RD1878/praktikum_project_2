@@ -1,0 +1,10 @@
+.video__button-play {
+    position: absolute;
+    width: 100%;
+    max-width: 41px;
+    height: 41px;
+    left: 30px;
+    top: 30px;
+    background-size: contain;
+}
+

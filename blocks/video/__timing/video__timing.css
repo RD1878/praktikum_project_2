@@ -1,0 +1,14 @@
+.video__timing {
+    position: absolute;
+    width: 100%;
+    max-width: 44px;
+    left: 30px;
+    top: 165px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    color: #FFFFFF;
+}

@@ -1,0 +1,6 @@
+.baikal-dogs__photo {
+    width: 100%;
+    background: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity ease-in 2s;
+}

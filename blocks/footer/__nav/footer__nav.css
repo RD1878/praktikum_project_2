@@ -1,0 +1,8 @@
+.footer__nav {
+    width: 100%;
+    max-width: 664px;
+    min-height: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

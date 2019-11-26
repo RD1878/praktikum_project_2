@@ -1,0 +1,18 @@
+@import url('./__languages/header__languages.css');
+@import url('./__logo/header__logo.css');
+
+.header {
+    width: 100%;
+    max-width: 1184px;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    margin: auto;
+    
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
