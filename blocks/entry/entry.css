@@ -1,8 +1,8 @@
-@import url('./__data/entry__data.css');
-@import url('./__title/entry__title.css');
-@import url('./__span-accent/entry__span-accent.css');
-@import url('./__author/entry__author.css');
-@import url('./__paragraph/entry__paragraph.css');
+@import url(./__data/entry__data.css);
+@import url(./__title/entry__title.css);
+@import url(./__span-accent/entry__span-accent.css);
+@import url(./__author/entry__author.css);
+@import url(./__paragraph/entry__paragraph.css);
 
 .entry {
     width: 100%;

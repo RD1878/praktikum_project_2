@@ -1,6 +1,6 @@
-@import url('./_type/header__languages_type_eng.css');
-@import url('./_type/header__languages_type_rus.css');
-@import url('./_type/header__languages_type_selected.css');
+@import url(./_type/header__languages_type_eng.css);
+@import url(./_type/header__languages_type_rus.css);
+@import url(./_type/header__languages_type_selected.css);
 
 .header__languages {
     width: 100%;

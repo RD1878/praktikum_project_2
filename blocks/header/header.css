@@ -1,5 +1,5 @@
-@import url('./__languages/header__languages.css');
-@import url('./__logo/header__logo.css');
+@import url(./__languages/header__languages.css);
+@import url(./__logo/header__logo.css);
 
 .header {
     width: 100%;

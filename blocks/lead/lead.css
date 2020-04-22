@@ -1,7 +1,7 @@
-@import url('./__illustration/lead__illustration.css');
-@import url('./__illustration-caption/lead__illustration-caption.css');
-@import url('./__subtitle/lead__subtitle.css');
-@import url('./__title/lead__title.css');
+@import url(./__illustration/lead__illustration.css);
+@import url(./__illustration-caption/lead__illustration-caption.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__title/lead__title.css);
 
 .lead {
     width: 100%;

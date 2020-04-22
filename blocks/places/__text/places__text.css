@@ -1,6 +1,3 @@
-@import url('./__paragraph/places__paragraph.css');
-@import url('./__paragraph/_position/_last/places__paragraph_position_last.css');
-
 .places__text {
     display: flex;
     flex-direction: column;

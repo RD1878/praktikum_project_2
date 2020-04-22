@@ -1,10 +1,10 @@
-@import url('./__author/comments__author.css');
-@import url('./__table/comments__table.css');
-@import url('./__item/comments__item.css');
-@import url('./__paragraph/comments__paragraph.css');
-@import url('./__photo/comments__photo.css');
-@import url('./__subtitle/comments__subtitle.css');
-@import url('./__title/comments__title.css');
+@import url(./__author/comments__author.css);
+@import url(./__table/comments__table.css);
+@import url(./__item/comments__item.css);
+@import url(./__paragraph/comments__paragraph.css);
+@import url(./__photo/comments__photo.css);
+@import url(./__subtitle/comments__subtitle.css);
+@import url(./__title/comments__title.css);
 
 .comments {
     display: flex;
